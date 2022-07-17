@@ -6,17 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Biodata</title>
     <style>
-      div{ 
-        float: right;
-        margin-right: 750px;
+    
+   .logo{
+     height: 100px;
+     width: 100px;
+     margin: 0 auto;
+   }
+   h1, h3{
+     color: cadetblue;
+     text-align: center;
+   } 
+   #logo{
+     text-align: center;
+   } 
+  #a{
+    float: left;
+    width: 50%;
+  }
+ #a > img{
+   height: 200px;
+   width: 200px;
+ } 
+   section{ 
+     display: flex;
+        margin 5px 20px;
       }
     </style>
   </head>
   <body>
-    <h1 align="center" style="color: cadetblue">UNIVERSITY OF PORT HARCOURT</h1>
-    <h3 align="center" style="color: cadetblue">Choba, Port Harcourt</h3>
-    <img src="Uniport.jpg" alt="uniport coat of arm" align="center"  width="100" height="100"/>
-    <p><strong>STUDENT BIODATA</p></strong>
+    <h1>UNIVERSITY OF PORT HARCOURT</h1>
+    <h3>Choba, Port Harcourt</h3>
+    <div id="logo">
+    <img src="Uniport.jpg" class="logo" alt="uniport coat of arm"/>
+    </div>
+    <!--above you set a width/height of 100 without a value, fixed it in the style-->
+    <p><strong>STUDENT BIODATA</strong></p>
     <hr />
     <form
       action=" mailto:elvisfrank378@gmail.com"
@@ -27,8 +51,11 @@
       <input type="text" />
     </form>
     <hr />
-    <img src="mr_robot.jpg" alt=" mr robot" width="200" height="200" />
-    <div id="a">
+    <section>
+      <div id="a">
+    <img src="mr_robot.jpg" alt="mr robot" />
+      </div>
+    <div id="b">
       <form
         action="mailto:elvisfrank378@gmail.com"
         method="post"
@@ -79,7 +106,9 @@
         <label for=""><strong>Email:</strong></label>
         <input type="email" name="email" id="" /><br><br>
         <input type="submit" value="Submit">
+    </section>
       </form>
     </div>
+    
   </body>
 </html>

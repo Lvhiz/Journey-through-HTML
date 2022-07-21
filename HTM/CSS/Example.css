@@ -1,9 +1,0 @@
-p::first-letter{
-    font-size: 180%;
-    font-weight: bold;
-    color: darkgoldenrod;
-}
-body{
-    background-image: url("finger.jpg");
-    background-repeat:no-repeat;
-}

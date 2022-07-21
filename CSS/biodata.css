@@ -1,0 +1,24 @@
+.logo{
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+  }
+  h1, h3{
+    color: cadetblue;
+    text-align: center;
+  } 
+  #logo{
+    text-align: center;
+  } 
+ #a{
+   float: left;
+   width: 50%;
+ }
+#a > img{
+  height: 200px;
+  width: 200px;
+} 
+  section{ 
+    display: flex;
+       margin 5px 20px;
+     }
